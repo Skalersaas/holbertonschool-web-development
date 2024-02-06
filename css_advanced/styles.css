@@ -2,6 +2,7 @@ body{
     background-image: url("images/background.png");
     background-repeat: no-repeat;
     background-color: #071629;
+    background-size:100%;
 }
 header{
     margin:auto;
