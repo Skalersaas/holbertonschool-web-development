@@ -1,1 +1,126 @@
+body{
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-color: #071629;
+}
+header{
+    margin:auto;
+    max-width: 76%;
+    margin-bottom: 20px;
+}
+header>div>div{
+    float:right;
+}
+header>div>div>a{
+    color:white;
+    text-decoration: none;
+    padding-left: 53px;
+}
 
+
+
+.Banner-div-1{
+    display: flex;
+    flex-direction: column;
+}
+.Banner-div-1>h1{
+    text-align: center;
+    font-size: 120px;
+    margin-bottom: 20px;
+    color:#FFFFFF;
+}
+.Banner-div-1>p{
+    text-align: center;
+    word-spacing: 50px;
+    color:#FFFFFF;
+}
+.Banner-div-1>button{
+    background-color: #C271FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border-color: #C271FF;
+    font-size: 16px;
+    margin:auto;
+    margin-top:20px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Banner-div-2{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    width: 60%;
+    margin:auto;
+}
+.Banner-div-2>h2{
+    color:white;
+    text-align: center;
+}
+
+.Banner-div-2>div{
+    display: flex;
+    justify-content: center;
+}
+.Banner-Pros{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    color:white;
+}
+.Banner-Pros>img{
+    border-radius: 50%;
+    max-width: 150px;
+    margin:auto;
+}
+.Banner-Pros>h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.Banner-Pros>p{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.Quote{
+    background-color: #C271FF;
+    margin-top:220px;
+}
+.Quote>div{
+    display: flex;
+    padding: 80px;
+}
+.Quote>div>img{
+    border-radius: 50%;
+    margin-left: 70px;
+    max-width: 150px;
+    min-width: 150px;
+    height: 100%;
+}
+.Quote-block{
+    color:white;
+    display:flex;
+    flex-direction: column;
+}
+.Quote-block>p{
+    margin-inline-start: 40px;
+}
+
+.Videos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.Videos>h1{
+    text-align: center;
+
+}
+.Videos>div{
+    display: flex;
+}
+.Videos_info{
+    
+}
