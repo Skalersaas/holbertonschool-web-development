@@ -3,11 +3,14 @@ body{
     background-repeat: no-repeat;
     background-color: #071629;
     background-size:100%;
+    font-family: "Source Sans Pro","Spin-Cycle-OT";
 }
 header{
     margin:auto;
     max-width: 76%;
-    margin-bottom: 20px;
+}
+header>div{
+    margin-top:30px;
 }
 header>div>div{
     float:right;
@@ -18,33 +21,33 @@ header>div>div>a{
     padding-left: 53px;
 }
 
-
-
 .Banner-div-1{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    color:#FFFFFF;
 }
 .Banner-div-1>h1{
-    text-align: center;
     font-size: 120px;
-    margin-bottom: 20px;
-    color:#FFFFFF;
+    margin-bottom: 10px;
 }
 .Banner-div-1>p{
-    text-align: center;
     word-spacing: 50px;
-    color:#FFFFFF;
+    margin-top:0px;
 }
-.Banner-div-1>button{
+.Purple_button{
     background-color: #C271FF;
-    color: #FFFFFF;
     border-radius: 20px;
     border-color: #C271FF;
-    font-size: 16px;
+    color:white;
+    font-weight: 500;
+    font-size: 14px;
     margin:auto;
     margin-top:20px;
-    padding: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 120px;
+    padding: 16px 20px 16px 20px;
+    border:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .Banner-div-2{
     display: flex;
@@ -81,6 +84,7 @@ header>div>div>a{
 }
 .Banner-Pros>p{
     text-align: center;
+    font-weight: 200;
     font-size: 16px;
     font-style: italic;
     margin-top: 2px;
@@ -88,7 +92,7 @@ header>div>div>a{
 
 .Quote{
     background-color: #C271FF;
-    margin-top:220px;
+    margin-top:80px;
 }
 .Quote>div{
     display: flex;
@@ -113,15 +117,126 @@ header>div>div>a{
 .Videos{
     background-color: white;
     display: flex;
+    margin:auto;
     flex-direction: column;
 }
 .Videos>h1{
     text-align: center;
-
+    margin-top:80px;
+    margin-bottom:60px;
+    font-weight: 300;
 }
 .Videos>div{
     display: flex;
 }
-.Videos_info{
-    
+.Video_container{
+    width: 80%;
+    margin:auto;
+    margin-bottom: 100px;
+}
+.Video_container>div{
+    padding:10px;
+}
+.Video{
+    display: grid;
+    position: relative;
+    grid-template-rows:max-content 1 ;
+}
+.Video>img{
+    position: relative;
+    grid-row: 1;
+    grid-column: 1;
+    border-radius: 10px 10px 0px 0px;
+}
+.Video_container>div>p{
+    font-weight: 200;
+    color:rgba(0,0,0,0.5)
+}
+.Ref{
+    display: flex;
+}
+.Ref>img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.Ref>h3{
+    margin:auto;
+    margin-left: 10px;
+}
+.Stars{
+    display: flex;
+}
+.Stars>div{
+    margin:auto;
+    margin-left: 0px;
+}
+.Stars>p{
+    float: right;
+}
+
+.Membership{
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#FFFFFF;
+}
+.Membership>div{
+    display: grid;
+    align-items: center;
+    width: 80%;
+    margin:auto;
+    margin-top:30px;
+}
+.Membership>div>div>h2{
+    font-weight: 100;
+}
+.Membership>div>div>p{
+    font-weight: 100;
+}
+.Membership>button{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.Faq{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+.Faq>div{
+    display: grid;
+    width: 80%;
+    margin:auto;
+}
+.Faq>div>div{
+    display: flex;
+    margin:auto;
+}
+.Faq_exp{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.Faq_h2{
+    text-align: left;
+}
+.Faq_p{
+    text-align: left;
+    width: 350px;
+    font-weight: 100;
+    color:rgba(0,0,0,0.5)
+}
+
+.Footer{
+    margin:auto;
+    margin-top: 60px;
+    width:76%;
+    color:white;
+}
+.Footer_links{
+    float:right;
 }
