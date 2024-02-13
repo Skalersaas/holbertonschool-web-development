@@ -23,6 +23,8 @@ header>div>div{
 }
 header>div>div>a{
     color:white;
+    font-size: 12px;
+    font-weight: bold;
     text-decoration: none;
     padding-left: 53px;
 }
@@ -36,9 +38,12 @@ header>div>div>a{
 .Banner-div-1>h1{
     font-size: 120px;
     margin-bottom: 10px;
+
 }
 .Banner-div-1>p{
     word-spacing: 50px;
+    font-size: 16px;
+    font-weight: bold;
     margin-top:0px;
 }
 .Purple_button{
@@ -46,14 +51,14 @@ header>div>div>a{
     border-radius: 20px;
     border-color: #C271FF;
     color:white;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     margin:auto;
     margin-top:20px;
     margin-bottom: 120px;
     padding: 16px 20px 16px 20px;
     border:none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .Banner-div-2{
     display: flex;
@@ -65,6 +70,7 @@ header>div>div>a{
 .Banner-div-2>h2{
     color:white;
     text-align: center;
+    font-size: 32px;
 }
 
 .Banner-div-2>div{
@@ -85,7 +91,7 @@ header>div>div>a{
 .Banner-Pros>h3{
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 2px;
 }
 .Banner-Pros>p{
@@ -117,9 +123,11 @@ header>div>div>a{
     flex-direction: column;
 }
 .Quote-block>blockquote{
-    max-width: 600px;
+    max-width: 730px;
+    font-size: 22px;
 }
 .Quote-block>p{
+    font-size: 22px;
     margin-inline-start: 40px;
     margin:2px 40px 2px 40px;
 }
@@ -135,6 +143,7 @@ header>div>div>a{
     margin-top:80px;
     margin-bottom:60px;
     font-weight: 300;
+    font-size: 32px;
 }
 .Video_container{
     display: grid;
@@ -158,13 +167,20 @@ header>div>div>a{
     grid-column: 1;
     border-radius: 10px 10px 0px 0px;
 }
+.Video_container>div>h2{
+    font-size: 16px;
+    max-width: 106px;
+    padding-left: 13px;
+}
 .Video_container>div>p{
     font-weight: 200;
+    padding-left: 13px;
     max-width: 255px;
     color:rgba(0,0,0,0.5)
 }
 .Ref{
     display: flex;
+    padding-left: 13px;
 }
 .Ref>img{
     border-radius: 50%;
@@ -174,9 +190,13 @@ header>div>div>a{
 .Ref>h3{
     margin:auto;
     margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .Stars{
     display: flex;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 .Stars>div{
     margin:auto;
@@ -193,6 +213,9 @@ header>div>div>a{
     text-align: center;
     color:#FFFFFF;
 }
+.Membership>h1{
+    font-size: 32px;;
+}
 .Membership>div{
     display: grid;
     grid-auto-flow: column;
@@ -201,14 +224,17 @@ header>div>div>a{
     margin-top:30px;
 }
 .Membership>div>div>h2{
-    font-weight: 100;
+    font-size: 18px;
+    font-weight:600; 
 }
 .Membership>div>div>p{
     font-weight: 100;
+    max-width: 212px;
+    margin: auto;
 }
 .Membership>button{
     margin-top: 70px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .Faq{
@@ -234,11 +260,13 @@ header>div>div>a{
 }
 .Faq_h2{
     text-align: left;
+    font-size: 16px;
 }
 .Faq_p{
+    font-size: 14px;
     text-align: left;
     width: 350px;
-    font-weight: 100;
+    font-weight: 400;
     color:rgba(0,0,0,0.5)
 }
 
@@ -246,8 +274,15 @@ header>div>div>a{
     margin:auto;
     margin-top: 60px;
     width:76%;
-    color:white;
 }
 .Footer_links{
     float:right;
+}
+.Footer>p{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(255,255,255,.3517);
 }
